@@ -4,5 +4,5 @@ export const moduleDefinition = {
   "presentation": "laravel-inertia-vue",
   "capabilityKey": "liberusoftware/activity-comments",
   "status": "skeleton",
-  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/nextjs/activity-comments.md"
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/vue/activity-comments.md"
 } as const;

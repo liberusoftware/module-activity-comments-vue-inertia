@@ -1,6 +1,6 @@
 # Capability module guidance — Activity Comments, Laravel · Inertia · Vue
 
-Read README.md and the [canonical capability plan](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/nextjs/activity-comments.md). Exact ownership key: `liberusoftware/activity-comments`. Naming conflict review required: `false`.
+Read README.md and the [capability presentation plan](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/vue/activity-comments.md). Exact ownership key: `liberusoftware/activity-comments`. Naming conflict review required: `false`.
 
 - This is a reusable npm presentation package. Keep explicit exports, actual package identities and independent release metadata. Application hosts own routing, navigation, session composition and deployment.
 - Keep core behavior, tenant authorization, policies, records, transactions and durable events in canonical Laravel owners. Use reviewed public contracts; never invent endpoints, replace source owners silently or copy host App aliases into reusable packages.
