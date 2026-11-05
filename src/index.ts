@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-vue-inertia', presentation: 'laravel-inertia-vue', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-activity-comments-vue-inertia",
+  "presentation": "laravel-inertia-vue",
+  "capabilityKey": "liberusoftware/activity-comments",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/nextjs/activity-comments.md"
+} as const;
